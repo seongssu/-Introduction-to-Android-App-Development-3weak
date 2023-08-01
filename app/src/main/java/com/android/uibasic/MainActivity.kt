@@ -13,9 +13,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
-//        setContentView(R.layout.text_views)
+        setContentView(R.layout.text_views)
+//        val myButton = findViewById<ImageButton>(R.id.imageButton)
+//        myButton.isEnabled = false
+
+
     }
 
+    fun imageButton1clicked(v: View) {
+        Toast.makeText(this, "눌렀어요", Toast.LENGTH_SHORT).show()
+    }
     //    fun imageButton1onclicked(v:View){
 //        Toast.makeText(this,"알람이 울립니다.",Toast.LENGTH_SHORT).show()
 //    }
@@ -23,5 +30,4 @@ class MainActivity : AppCompatActivity() {
 //        val btn = Intent(Intent.ACTION_VIEW, Uri.parse("https://m.naver.com"))
 //        startActivity(btn)
 //    }
-
 }

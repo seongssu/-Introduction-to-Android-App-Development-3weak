@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.text_views)
 //        val myButton = findViewById<ImageButton>(R.id.imageButton)
 //        myButton.isEnabled = false
-
+//        focusableInTouchMode
 
     }
 

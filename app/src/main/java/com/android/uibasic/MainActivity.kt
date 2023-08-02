@@ -13,10 +13,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
-        setContentView(R.layout.text_views)
+//        setContentView(R.layout.text_views)
 //        val myButton = findViewById<ImageButton>(R.id.imageButton)
 //        myButton.isEnabled = false
 //        focusableInTouchMode
+        setContentView(R.layout.example3_2)
 
     }
 

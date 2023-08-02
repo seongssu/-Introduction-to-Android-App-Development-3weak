@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/DarkRed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/violet"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/project_layout"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="Button1" />
+
+        <Button
+            style="@style/project_layout"
+            android:layout_gravity="center"
+            android:text="Button2" />
+
+        <Button
+            style="@style/project_layout"
+            android:layout_gravity="right"
+            android:text="Button3" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/Lime"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/project_layout"
+            android:text="Button4"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/btn5"
+            />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/project_layout"
+            android:text="Button5"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            style="@style/project_layout"
+            android:text="Button6"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btn4"
+            android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/LightYello">
+
+
+        <Button
+            android:id="@+id/button6"
+
+            style="@style/project_layout"
+            android:text="Button7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            style="@style/project_layout"
+            android:text="Button8"
+            app:layout_constraintBottom_toBottomOf="@+id/button6"
+            app:layout_constraintStart_toEndOf="@+id/button6"
+            app:layout_constraintTop_toTopOf="@+id/button6"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/project_layout"
+            android:text="Button9"
+            app:layout_constraintEnd_toEndOf="@+id/button6"
+            app:layout_constraintStart_toStartOf="@+id/button6"
+            app:layout_constraintTop_toBottomOf="@+id/button6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
+
+
+

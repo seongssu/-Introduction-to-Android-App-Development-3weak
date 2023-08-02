@@ -3,4 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="pink200">#f186c0</color>
+    <color name="violet">#EE82EE</color>
+    <color name="Lime">	#00FF00</color>
+    <color name="LightYello">#FFFFE0</color>
+    <color name="DarkRed">#8B0000</color>
 </resources>

@@ -3,7 +3,25 @@
     <style name="Base.Theme.UIBasic" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
     </style>
+
+    <style name="RedTextView" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="project_layout" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFF0F5</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
 
     <style name="Theme.UIBasic" parent="Base.Theme.UIBasic" />
 </resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        style="@style/RedTextView"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="L | T" />
+
+    <Button
+        style="@style/RedTextView"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="C_H | T" />
+
+    <Button
+        style="@style/RedTextView"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="R | T" />
+
+    <Button
+        style="@style/RedTextView"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="L | C_V" />
+
+    <Button
+        style="@style/RedTextView"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="CENTER" />
+
+    <Button
+        style="@style/RedTextView"
+        android:layout_gravity="right|center"
+        android:gravity="right"
+        android:text="R | C_V" />
+
+    <Button
+        style="@style/RedTextView"
+        android:layout_gravity="left|bottom"
+        android:gravity="center"
+        android:text="L | B" />
+    <Button
+        style="@style/RedTextView"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:text="C_H | B" />
+    <Button
+        style="@style/RedTextView"
+        android:layout_gravity="right|bottom"
+        android:gravity="center"
+        android:text="R | B" />
+
+</FrameLayout>
